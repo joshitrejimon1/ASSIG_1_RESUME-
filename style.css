@@ -1,4 +1,9 @@
-/* Add custom styles for the <h1> and <h2> elements */
+
+
+* {
+  color: rgb(252, 4, 4);
+  background-color: rgb(7, 7, 0);
+}/* Add custom styles for the <h1> and <h2> elements */
 h1, h2 {
     position: relative;
   }
