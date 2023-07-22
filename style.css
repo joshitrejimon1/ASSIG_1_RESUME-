@@ -1,0 +1,25 @@
+/* Add custom styles for the <h1> and <h2> elements */
+h1, h2 {
+    position: relative;
+  }
+  
+  /* Add a horizontal line after <h1> and <h2> */
+  h1::after, h2::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Adjust this value to control the distance from the heading */
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: black;
+  }
+  
+  /* Additional styles for the headings if needed */
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
